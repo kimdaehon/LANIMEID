@@ -116,7 +116,7 @@ async function insertDefaultData() {
 
       if (row.count === 0) {
         db.run(`INSERT INTO settings (key, value, description) VALUES
-          ('site_title', 'KitaNime - Streaming Anime Subtitle Indonesia', 'Judul website'),
+          ('site_title', 'LanimeID - Streaming Anime Subtitle Indonesia', 'Judul website'),
           ('site_description', 'Nonton anime subtitle Indonesia terlengkap dan terbaru', 'Deskripsi website'),
           ('cookie_consent_enabled', '1', 'Enable cookie consent popup'),
           ('adsense_enabled', '0', 'Enable Google AdSense')`);
